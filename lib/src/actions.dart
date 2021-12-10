@@ -86,9 +86,7 @@ class CustomSlidableAction extends StatelessWidget {
             backgroundColor: backgroundColor,
             primary: effectiveForegroundColor,
             onSurface: effectiveForegroundColor,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(10.0),
-            ),
+            shape: RoundedRectangleBorder(),
             side: BorderSide.none,
           ),
           child: child,
